@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" required /><br />
+      <input type="submit" value="Login" />
+    </form>
+    <br />
+    <! Disabled>
+    <form>
+      <input type="text" disabled /><br />
+      <input type="submit" value="Login" />
+    </form>
+    <br />
+    <! maxlength>
+    <form>
+      <input type="text" maxlength="5" /><br />
+      <input type="submit" value="Login" />
+    </form>
+    <br />
+    <form>
+      <! size of the form>
+      <input type="text" size="5" /><br />
+      <input type="submit" value="Login" />
+    </form>
+    <br />
+    <form>
+      <! size of the form>
+      <input type="text" placeholder="User Name" autofocus /><br />
+      <input type="password" placeholder="Password" /><br />
+      <input type="submit" value="Login" />
+      <input type="reset" />
+    </form>
+    <br />
+    <! auto filled>
+    <form>
+      <input type="text" value="India" placeholder="User Name" /><br />
+      <input type="password" placeholder="Password" /><br />
+      <input type="submit" value="Login" />
+      <input type="reset" />
+    </form>
+    <br/>
+    <! value read only>
+    <form>
+      <input type="text" value="India" readonly placeholder="User Name" /><br />
+      <input type="password" placeholder="Password" /><br />
+      <input type="submit" value="Login" />
+      <input type="reset" />
+    </form>
+    <br />
+    <! accepts multiple emails>
+    <form>
+      <input type="text" value="India" readonly placeholder="User Name" /><br />
+      <input type="password" placeholder="Password" /><br />
+      <input type="number" min="" max="10" placeholder="Phone number" /><br />
+      <input type="date" /><br />
+      <input type="email" multiple placeholder="Email" /><br />
+      <input type="submit" value="Login" />
+      <input type="reset" />
+    </form>
+    <br />
+    <hr />
+    <br />
+
+    <! date types but datetime is not working,checked for radio>
+    <form>
+      <input type="text" value="India" readonly placeholder="User Name" /><br />
+      <input type="password" placeholder="Password" /><br />
+      <input type="number" min="" max="10" placeholder="Phone number" /><br />
+      <input type ="radio" name="Batch">Batch A<br>
+      <input type ="radio" name="Batch" checked>Batch B<br>
+      <input type ="checkbox" >JAVA<br>
+      <input type ="checkbox" >C++<br>
+      <input type="datetime" min="2024-08-02" /><br />
+      <input type="email" multiple placeholder="Email" /><br />
+      <input type="date" min="2024-08-02" /><br />
+      <input type="datetime-local" min="2024-08-02" /><br />
+      <input type="time" min="2024-08-02" /><br />
+      <input type="month"/><br />
+      <input type="week"/><br />
+      <input type="color"/><br />
+      <input type="file"/><br />
+      <input type="url"/><br />
+      <input type="range"/><br />
+      <input type="submit" value="Login" /><br>
+
+    <textarea rows="4" cols="50"></textarea><br>
+    <select>
+        <option>INDIA</option>
+        <option selected>USA</option>
+        <option>UK</option>
+    </select><br>
+    <!>
+    <select multiple>
+        <option>INDIA</option>
+        <option selected\>USA</option>
+        <option>UK</option>
+    </select>
+<br>
+    <select >
+        <optgroup label="INDIA">
+        <option>Telangana</option>
+        <option >Delhi</option>
+       </optgroup>
+
+        <optgroup label="USA">
+        <option>Dallas</option>
+        <option>Texas</option>
+        </optgroup>
+        
+        <optgroup label="Uk">
+        <option>Scotlant</option>
+        <option>Engling</option>
+        </optgroup>
+    </select>
+
+      <br>
+
+    <input type="checkbox" id ="ck">
+    <label for="ck">Remember Me</label><br>
+
+    <br>
+      <br>
+      <! 3 tues of button>
+
+      <input type="submit" >
+      <input type="submit" value="Login" />
+      <input type="reset"/>
+    </form>
+  </body>
+</html>
